@@ -21,7 +21,7 @@ Feane is a fullstack project, that developed and built on NodeJs.
 - **Programming Language: TypeScript**
 - **Runtime/Platform: Node.js**
 - **Version Control & Collaboration: Git, GitHub**
-- **Tools: ESLint**
+- **Tools: ESLint, Prettier, Docker**
 
 1. Frontend
     - Framework/Libary: Next.js

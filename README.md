@@ -17,11 +17,11 @@ Feane - A comprehensive platform, that provides customer services and restaurant
 
 Feane is a fullstack project, that developed and built on NodeJs.
 
-**- Markup & Style languages: HTML/CSS**
-**- Programming Language: TypeScript**
-**- Runtime/Platform: Node.js**
-**- Version Control & Collaboration: Git, GitHub**
-**- Tools: ESLint**
+- **Markup & Style languages: HTML/CSS**
+- **Programming Language: TypeScript**
+- **Runtime/Platform: Node.js**
+- **Version Control & Collaboration: Git, GitHub**
+- **Tools: ESLint**
 
 1. Frontend
     - Framework/Libary: Next.js

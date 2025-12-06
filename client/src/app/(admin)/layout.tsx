@@ -1,7 +1,9 @@
+import AppSidebar from "@/components/sidebar/AppSidebar"
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Feane | Đặt bàn online, gọi món tiện lợi",
+  title: "Feane | Quản lý",
   description: "eane - Đặt bàn và gọi món trực tuyến nhanh chóng, tiện lợi. Trải nghiệm ẩm thực tuyệt vời ngay hôm nay tại nhà hàng Feane.",
   authors: { name: "Feane" }
 }
@@ -13,9 +15,15 @@ export default function AdminLayout({
 }>) {
   return (
     <>
-      <div >
-        {children}
-      </div>
+      <SidebarProvider>
+        <AppSidebar />
+        <main className="w-full">
+          <SidebarTrigger />
+          <div className="p-4">
+            {children}
+          </div>
+        </main>
+      </SidebarProvider>
     </>
   )
 }
